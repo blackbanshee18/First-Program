@@ -1,12 +1,14 @@
 package me.ian.homework1;
 
-public class Oranges {
+import me.ian.homework1.*;
 
-	public static void EatOranges (String[] args)
+public class Oranges {
+	
+	public static int EatOranges (int Oranges, int ToEat)
 	{
-		int ToEat=
+		int value= Oranges-ToEat;
 		
-		int total=
+		return value;
 		
-		System.out.println("The number of Oranges Eaten:"+ToEat-total);
+	}
 }
